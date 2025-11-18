@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact | Télésecrétariat As2Tel</title>
+  <meta name="description" content="Contactez As2Tel par téléphone, e-mail ou via le formulaire pour votre permanence téléphonique." />
+  <link rel="canonical" href="https://www.as2tel.fr/contact" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo" aria-label="As2Tel">
+        <span>🎧</span><span>As2Tel</span>
+      </div>
+      <nav class="nav-links" aria-label="Navigation principale">
+        <a href="index.html">Accueil</a>
+        <a href="a-propos.html">À propos</a>
+        <a href="services.html">Services</a>
+        <a href="tarifs-telesecretariat.html">Tarifs</a>
+        <a href="bureautique.html">Bureautique</a>
+        <a class="active" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <h1>Toujours à votre écoute</h1>
+  </section>
+
+  <div class="content">
+    <p>Vous pouvez nous joindre par téléphone, par mail ou via le formulaire. Nous répondons sous 2 heures ouvrées.</p>
+    <div class="split">
+      <div class="panel">
+        <h3>Coordonnées</h3>
+        <p><strong>Téléphone :</strong> 01 84 88 71 02</p>
+        <p><strong>Email :</strong> info@as2tel.fr</p>
+        <p><strong>Adresse :</strong> 49 rue de Maubeuge, 75009 Paris</p>
+      </div>
+      <div class="panel">
+        <h3>Formulaire de contact</h3>
+        <form class="contact-form">
+          <label for="name">Nom</label>
+          <input id="name" name="name" type="text" placeholder="Votre nom" required />
+          <label for="email">E-mail</label>
+          <input id="email" name="email" type="email" placeholder="vous@example.com" required />
+          <label for="company">Société</label>
+          <input id="company" name="company" type="text" placeholder="Nom de société" />
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Parlez-nous de votre besoin" required></textarea>
+          <button class="btn btn-primary" type="submit">Envoyer</button>
+          <p aria-live="polite">Thanks! Message sent.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-inner">
+      <div>
+        <h4>As2Tel</h4>
+        <p>49 rue de Maubeuge<br>75009 Paris</p>
+        <p><strong>Tél :</strong> 01 84 88 71 02<br><strong>Email :</strong> info@as2tel.fr</p>
+      </div>
+      <div class="footer-links">
+        <h4>Services</h4>
+        <a href="accueil-telephonique.html">Accueil téléphonique</a>
+        <a href="gestion-agenda.html">Gestion d'agenda</a>
+        <a href="filtrage-d-appel.html">Filtrage d'appel</a>
+        <a href="accueil-telephonique-billingue.html">Accueil bilingue</a>
+        <a href="releve-de-standard.html">Relève de standard</a>
+      </div>
+      <div class="footer-links">
+        <h4>Solutions métiers</h4>
+        <a href="tpe.html">TPE / PME</a>
+        <a href="telesecretariat-medical.html">Médical</a>
+        <a href="secretariat-juridique.html">Juridique</a>
+        <a href="secretariat-agence-immobilier.html">Immobilier</a>
+      </div>
+      <div class="newsletter">
+        <h4>Newsletter</h4>
+        <label for="newsletter-email-contact">Votre e-mail</label>
+        <input id="newsletter-email-contact" name="email" type="email" placeholder="vous@example.com" />
+        <button class="btn btn-secondary" type="button">Je m'abonne</button>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
